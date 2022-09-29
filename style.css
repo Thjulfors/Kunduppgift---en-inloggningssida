@@ -1,0 +1,70 @@
+/* Nollställer förinstallda format */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Display flex för att kunna tillämpa flebox på barnelementen */
+body {
+  display: flex;
+  justify-content: center;
+}
+
+/* Övergripande container för efterföljande barnelement */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  height: 800px;
+  padding: 1rem;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+  background-color: rgba(245, 238, 238, 0.489);
+}
+.container1 {
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+}
+.container2 {
+  font-size: 1rem;
+}
+.sec-class {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Indirekt styling av fieldset-tagen */
+input,
+button {
+  padding: 1rem;
+  height: 40%;
+  margin: 0 1rem 1rem 1rem;
+}
+
+legend {
+  text-align: center;
+  padding: 1rem;
+}
+
+h3 {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.aclass {
+  display: flex;
+  margin-top: 1rem;
+}
+
+/* Pekar först på klassen sedan bilden i klassen */
+.aclass img {
+  height: 5.5rem;
+  width: 5.5rem;
+  border-radius: 50%;
+  margin-right: 1.6rem;
+}
+
+footer {
+  margin-top: auto;
+}
