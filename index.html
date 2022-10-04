@@ -7,48 +7,31 @@
     <link rel="stylesheet" href="style.css" />
     <title>Värnamo Simklubb</title>
   </head>
-  <!-- För att kunna styra efterföljande flex-container får 
-  body-tagen display-flex egenskapen -->
   <body>
-    <!-- I min body tag har jag valt att lägga en container som föräldraelement för 
-    nästkommande barnelement. Det ger mig också möjligheten att centrera innehållet på sidan
-     genom CSS -->
     <div class="container">
-      <!-- container1 är först barnelementet till container
-         och styrs/stylas som ett item till flex-containern -->
       <div class="container1">
         <header>
           <h1>Välkommen till Värnamo simklubbs hemsida</h1>
         </header>
       </div>
       <div class="container2">
-        <!-- container2 är andra barnelementet till container
-         och styrs/stylas som ett item till flex-containern -->
         <section class="sec-class">
           <h2>Våra regler för medlemskap</h2>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
         </section>
       </div>
       <div class="container3">
-        <!-- container3 är det tredje barnelementet till container
-         och styrs/stylas som ett item till flex-containern -->
         <article class="art-class">
-          <!-- Här kommer inloggningsmarkupen, fieldset tag för att
-          gruppera sammanhörande element till ett formulär. -->
           <fieldset>
             <legend>Logga in:</legend>
             <input id="inpKey" type="text" placeholder="Ert användarnamn.." />
             <input id="inpValue" type="text" placeholder="Ert lösenord" />
             <button id="btnInsert" type="button">Logga in</button>
           </fieldset>
-          <!-- Består av 2st input med egna iden samt en placeholder.
-          En knapp för användaren att trycka på vid inloggning. -->
         </article>
       </div>
       <h3>Ett urval av våra tävlingssimmare</h3>
       <aside class="aclass">
-        <!-- En aside valdes för att gruppera sidans bilder.
-        Styrda och stylade med CSS -->
         <img src="./nedladdning (1).jfif" alt="En person som simmar" />
         <img src="./nedladdning2.jfif" alt="En person som simmar fjärilsim" />
         <img
@@ -57,7 +40,6 @@
         />
       </aside>
       <footer>
-        <!-- En copyright symbol tillsammans med mitt namn -->
         <p>&copy; Teddy Hjulfors</p>
       </footer>
       <script src="script.js"></script>
