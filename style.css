@@ -1,17 +1,16 @@
-/* Nollställer förinstallda format */
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-/* Display flex för att kunna tillämpa flebox på barnelementen */
+
 body {
   display: flex;
   justify-content: center;
 }
 
-/* Övergripande container för efterföljande barnelement */
 .container {
   display: flex;
   flex-direction: column;
@@ -34,7 +33,6 @@ body {
   margin-bottom: 2rem;
 }
 
-/* Indirekt styling av fieldset-tagen */
 input,
 button {
   padding: 1rem;
@@ -57,7 +55,7 @@ h3 {
   margin-top: 1rem;
 }
 
-/* Pekar först på klassen sedan bilden i klassen */
+
 .aclass img {
   height: 5.5rem;
   width: 5.5rem;
